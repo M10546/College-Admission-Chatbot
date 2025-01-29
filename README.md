@@ -1,5 +1,5 @@
 # College-Admission-Chatbot
-#**Project Name: College Admission Chatbot**
+# Project Name: College Admission Chatbot
 
 **Introduction**
 This project is a web interface that displays a college admission chatbot. The application offers users an interactive chatbot experience with an optional dark/light mode for enhanced accessibility. The application's website version page is designed to be responsive and functional across both desktop and mobile versions.
