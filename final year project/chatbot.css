@@ -1,0 +1,109 @@
+body {
+    background-image: url('src/summer_sunset.webp');
+    background-repeat: no-repeat;
+    background-position: fixed;
+    background-size: cover;
+    overflow: hidden;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: center;
+}
+body::-webkit-scrollbar {
+    display: none;
+}
+.chatbot {
+position: absolute;
+height: 450px;
+width: 400px;
+border-radius: 20px;
+background-color: rgba(255, 255, 255, 0.675);
+backdrop-filter: blur(5px);
+margin-top: 130px;
+box-shadow: 30px 0 80px #f55a83, -30px 0 80px #9a6da0;
+}
+.chatbot-header {
+    background: linear-gradient(to bottom right, #f55a83,#9a6da0);
+    color: whitesmoke;
+    padding: 10px;
+    font-size: large;
+    text-align: center;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.chat-body {
+    overflow-y: auto;
+    overflow-x: hidden;
+    height: 350px;
+    padding: 8px;
+}
+.user-input {
+    position: relative;
+    margin-top: 30px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background: linear-gradient(to bottom right, #a86576ef,#6e4973);
+}
+#btn {
+    background-color: transparent;
+    border-radius: 50%;
+}
+#btn:hover {
+    box-shadow: 40px 0 80px #fbd6e0, -40px 0 80px #e6cee9;
+}
+.message {
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+}
+.user {
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+.bot {
+    justify-content: flex-start;
+}
+
+.name {
+    font-size: 12px;
+    font-weight: bold;
+    margin-bottom: 2px;
+    color: #323030;
+}
+.bot .name {
+    text-align: left;
+}
+.user .name {
+    text-align: right;
+}
+.text {
+    max-width: 70%;
+    padding: 8px;
+  }
+.user .text {
+    background-color: #d09bba;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    color: whitesmoke;
+}
+.bot .text {
+    background: linear-gradient(to bottom right, #f55a83,#9a6da0);
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    color: whitesmoke;
+}
+.chat-body::-webkit-scrollbar {
+    width: 10px;
+}
+.chat-body::-webkit-scrollbar-thumb {
+    background: #bcbdc0;
+    border-radius: 10px;
+}
+@media (max-width:600px) {
+    .mainpage {
+        flex-direction:column;
+    }
+    
+    
+}
