@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Web Version</title>
+    <link rel="stylesheet" href="web.css">
+</head>
+<body>
+    <div class="chatbot-container">
+        <div class="chat-toggle" id="chat-toggle">
+            <img src="src/chaticon.jpg" alt="" height="25px" width="25px" style="margin-top: 8px;" id="chatic">
+        </div>
+        <div class="chatbot hidden" id="chatbot">
+            <div class="chatbot-header">
+                <b>Chat with Huda</b>
+            <button class="close" id="close">x</button>
+            </div>
+            <div class="chat-body" id="chat-body">
+            </div>
+            <div class="user-input">
+                <input type="text" class="input" id="input" placeholder="Type here..." style="width: 100%; max-width: 300px; height: 35px; border: none; outline: none; background-color: transparent; padding: 15px; color: black;">
+                <img src="src/sendicon.png" class="button" alt="send" height="25px" width="25px" role="button" id="btn">
+            </div>
+        </div>
+        
+         <script src="web.js"></script>  
+          
+        
+    </div>
+    <div style="position: absolute;color: black; margin-top: 500px;" align="center" class="copyright"><p style="margin-top: 500px;">&copy; 2025 Mahreen Fathima. All rights reserved.</p></div>
+</body>
+</html>
