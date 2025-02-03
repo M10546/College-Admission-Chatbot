@@ -20,3 +20,4 @@ Interact with the Chatbot: Click the floating chatbot button to start chatting. 
 
 _HTML_: For the page structure.
 _CSS_: For styling and theme adjustments.
+_JS_ : For chatbot logic.
