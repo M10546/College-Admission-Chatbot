@@ -10,7 +10,7 @@ const responses = {
     contact:'For more details, contact 9629746444.',
     payment:"The payment method is available in both offline and online.",
     number:'For more details, contact 9629746444.',
-    course:"Aiman College of Arts and Science for Women offers 11 UG courses and 4 PG courses.",
+    course:"Aiman College of Arts and Science for Women offers 11 UG courses and 4 PG courses. Specify UG or PG",
     phone:"Mobile phones are not allowed during the college hours. |Hostel students have the permission of using mobile phones from 4:00 p.m. to 7:00 p.m., after which they must submit to the warden.",
     mobile:"Mobile phones are not allowed during the college hours. |Hostel students have the permission of using mobile phones from 4:00 p.m. to 7:00 p.m., after which they must submit to the warden.",
     office :"The office functions from 9:00 a.m. to 5:00 p.m.",
